@@ -1,0 +1,17 @@
+{
+  "name": "node_p5",
+  "version": "1.0.0",
+  "description": "nodejs, express and p5 project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "author": "reacheasambath",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
