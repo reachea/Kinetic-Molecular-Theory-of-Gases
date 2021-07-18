@@ -1,0 +1,120 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+// App
+
+.appContainer {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #000000;
+  padding-right: 200px;
+}
+
+// Main
+
+.mainContainer {
+  width: 100vw;
+  height: calc(100vh - 70px);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvasContainer {
+  height: calc(100vh - 70px);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sketchContainer {
+  width: 400px;
+  height: 400px;
+  border: 2px solid #ffffff;
+}
+
+.buttonContainer {
+  margin: 0px 0px 0px 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton {
+  margin: 15px 0px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+
+  background-color: rgb(106, 5, 153);
+
+  :hover {
+    cursor: pointer;
+  }
+
+  span {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+  }
+}
+
+.removeButton {
+  margin: 15px 0px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+
+  background-color: rgb(154, 15, 17);
+
+  :hover {
+    cursor: pointer;
+  }
+
+  span {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+  }
+}
+
+// Footer
+
+#footer {
+  width: 100vw;
+  height: 70px;
+  background-color: #ffffff;
+  padding: 0px 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
