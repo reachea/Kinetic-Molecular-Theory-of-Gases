@@ -5,12 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simulation</title>
   <link rel="stylesheet/less" type="text/css" href="./styles/styles.less" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="./assets/icon.png" />
   <script src="//cdn.jsdelivr.net/npm/less@4.1.1" ></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
 </head>
 <body>
-  <div id="sketch_container"></div>
+  <div class="appContainer">
+    <div class="mainContainer">
+      <div class="canvasContainer">
+        <div id="sketchContainer"></div>
+      </div>
+
+      <div class="buttonContainer">
+        <button class="addButton"><span><i class="fas fa-plus" ></i></span></button>
+        <button class="removeButton"><span><i class="fas fa-minus"></i></span></button>
+      </div>
+    </div>
+    <div id="footer" >
+      <p class="footerTitle">Kinetic Molecular Theory of Gases: DEMO</p>
+    </div>
+  </div>
   <script src="./sketch.js"></script>
 </body>
 </html>
