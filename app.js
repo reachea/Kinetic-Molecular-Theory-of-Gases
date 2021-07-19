@@ -10,6 +10,8 @@ app.use(express.static('./frontend'));
 
 
 // listening on port
-app.listen(5000, () => {
+const port = proces.env.PORT || 5000
+
+app.listen(port, () => {
   console.log("listening on port:5000 🚀");
 });
