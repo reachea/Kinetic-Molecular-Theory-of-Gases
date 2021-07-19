@@ -22,6 +22,7 @@ function setup() {
 function draw() {
   background(0, 0, 0);
 
+  push();
   for (let i = 0; i < particleList.length; i++) {
     particleList[i].getParticle();
     particleList[i].collide();
@@ -42,6 +43,7 @@ function draw() {
 
     particleList[i].move();
   }
+  pop();
 }
 
 function generate() {
