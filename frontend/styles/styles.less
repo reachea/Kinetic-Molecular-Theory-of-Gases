@@ -13,6 +13,10 @@
   min-height: 100vh;
   background-color: #000000;
   padding-right: 200px;
+
+  @media screen and (max-width: 1200px) {
+    padding-right: 0px;
+  }
 }
 
 // Main
@@ -25,6 +29,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 662px) {
+    flex-direction: column;
+  }
 }
 
 .canvasContainer {
@@ -40,6 +48,11 @@
   width: 400px;
   height: 400px;
   border: 2px solid #ffffff;
+
+  @media screen and (max-width: 662px) {
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+  }
 }
 
 .buttonContainer {
@@ -49,6 +62,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 662px) {
+    flex-direction: row;
+    margin: 0px 0px 40px 0px;
+  }
 }
 
 .addButton {
@@ -74,6 +92,10 @@
 
     font-size: 20px;
   }
+
+  @media screen and (max-width: 662px) {
+    margin: 0px 15px;
+  }
 }
 
 .removeButton {
@@ -98,6 +120,10 @@
     align-items: center;
 
     font-size: 20px;
+  }
+
+  @media screen and (max-width: 662px) {
+    margin: 0px 15px;
   }
 }
 
